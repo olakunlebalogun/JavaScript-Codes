@@ -1,0 +1,43 @@
+.container {
+	width: 30%;
+	margin: 150px auto;
+	background-color: #f6f6f6;
+	padding: 20px;
+}
+
+h3,
+h4 {
+	text-align: center;
+	color: black;
+}
+img {
+	display: block;
+	margin: 0px auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	background: green;
+	color: black;
+	padding: 0.25rem 0.75rem;
+	border-radius: 5px;
+	border-color: transparent;
+	text-transform: capitalize;
+	font-size: 1rem;
+	margin-top: 10px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+.btn:hover {
+	color: green;
+	background-color: black;
+}
+
+.center {
+	text-align: center;
+}

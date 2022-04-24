@@ -1,0 +1,21 @@
+.hot {
+	background-color: red;
+}
+
+.complete {
+	background-color: #9a9a9a;
+}
+
+.cool {
+	background-color: rgb(148, 189, 148);
+}
+
+.ital {
+	font-size: larger;
+	font-style: italic;
+}
+
+.diff {
+	color: orange;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

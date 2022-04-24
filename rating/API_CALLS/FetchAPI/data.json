@@ -1,0 +1,33 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"title": "Eiffel Tower",
+			"description": "This is the iconic structure that represents the capital city of france, this is as height as height",
+			"rating": 4.9,
+			"image": "images/paris.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Winter Child",
+			"description": "Red clothes, alone in the weirdwood of the winter, the daughter of the strenght staring at the darkness that looms",
+			"rating": 4.8,
+			"image": "images/small-girl.jpg"
+		},
+		{
+			"id": 3,
+			"title": "White Sitting Room",
+			"description": "lorem5",
+			"rating": 4.2,
+			"image": "images/white-parlour.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Mustang Car",
+
+			"description": "Anaconda is a big snake that has been featured in many movies across the world, it is a scary one but me i no dy fear",
+			"rating": 2.1,
+			"image": "images/anaconda.jpg"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+:root {
+	--bck-color: #f8f9fa;
+	--text-color: #495957;
+	--text-small: #545e52;
+	--button-color: #228be6;
+	--mail: #1864ab;
+	--notify-bck: #ebfbee;
+	--light-green: #8ce99a;
+	--dark-green: #41c058;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: var(--bck-color);
+}
+.main {
+	background: white;
+	margin: 0 auto;
+	width: 60%;
+	border: 1px solid #e9ecef;
+}
+.note {
+	width: 80%;
+	margin: 20px auto;
+}
+.fa-check {
+	color: var(--dark-green);
+	font-size: 24px;
+}
+
+.mark {
+	background: var(--light-green);
+}
+
+.below {
+	text-align: center;
+}
+
+#foot {
+	color: #b2a0b3;
+}
+#foot a {
+	color: #4b94e7;
+}

@@ -1,0 +1,36 @@
+.container {
+	margin: 20px auto;
+	width: 60%;
+	padding: 20px;
+}
+/* .main {
+	padding: 20px;
+} */
+#one {
+	background-color: blue;
+}
+
+#two {
+	background-color: green;
+}
+
+#three {
+	background-color: yellow;
+}
+button[type="submit"] {
+	color: white;
+	margin: 10px;
+}
+#sub {
+	background-color: #9e9e9e;
+	display: block;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+}

@@ -1,0 +1,27 @@
+img {
+    height: 200px;
+    width: 200px;
+    clip-path: ellipse(25% 40% at 50% 50%);
+}
+
+img#two {
+    height: 200px;
+    width: 200px;
+    clip-path: circle(40% at 50% 50%);
+}
+
+#btn {
+ height: 50px;
+ width: 100px;
+ border: 2px solid blue;
+ background-color: white;
+ color: blue;
+ font-size: larger;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn:hover {
+    background-color: blue;
+    color : white;
+}
+

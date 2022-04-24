@@ -1,0 +1,52 @@
+body {
+    background: #efefef;
+}
+
+div h2 {
+    text-align: center;
+    color: green;
+}
+
+div #dynamic {
+    text-align: center;
+    color: yellow;
+}
+
+.five {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.star {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 160px solid #9e9e9e;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin: 20px;
+}
+
+.star::before {
+    content: "";
+    position: absolute;
+    left: -100px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border-top: 160px solid #9e9e9e;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.eff:hover {
+    border-bottom: 160px solid red;
+}
+
+.eff::before:hover {
+    border-top: 160px solid red;
+}

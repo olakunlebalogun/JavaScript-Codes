@@ -1,0 +1,30 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 300px;
+	width: 500px;
+	background-color: black;
+	padding-top: 40px;
+	margin: 40px auto;
+}
+
+.main {
+	height: 40px;
+	width: 80%;
+	color: white;
+	padding: 10px;
+	margin: 3px auto;
+	border: 1px solid inherit;
+}
+
+.hot {
+	background-color: rgb(77, 9, 9);
+}
+
+.normal {
+	background-color: rgb(167, 53, 19);
+}

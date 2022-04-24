@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/**=======================
+    THE COMPONENT STYLE
+==========================
+*/
+
+.outer {
+	width: 500px;
+	height: 400px;
+	background-color: #161d2d;
+	padding: 0;
+	margin: 40px;
+}
+
+.floor {
+	color: #fff;
+}
+
+.cont-img img {
+	display: block;
+	margin: 0 auto;
+	height: 80%;
+	width: 100%;
+}
+
+.desc {
+	color: #6e629a;
+	text-align: center;
+	justify-content: center;
+	font-size: 12px;
+}
+.rate {
+	text-align: center;
+	color: gold;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+	margin: 10px;
+	text-align: center;
+}

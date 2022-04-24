@@ -1,0 +1,30 @@
+.container {
+	width: 80%;
+	margin: 20px auto;
+	background-color: rgb(39, 31, 31);
+	padding: 20px;
+}
+
+.mainOne {
+	width: 40%;
+	float: left;
+	height: 100%;
+	background-color: #fff;
+	padding: 20px;
+	height: 100%;
+	border: solid 2px #000;
+}
+
+.mainTwo {
+	width: 40%;
+	float: right;
+	height: 100%;
+	background-color: #fff;
+	padding: 20px;
+	height: 100%;
+	border: solid 2px #000;
+}
+
+#btn {
+	display: inline;
+}

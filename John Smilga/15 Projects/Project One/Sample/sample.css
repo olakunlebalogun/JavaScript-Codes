@@ -1,0 +1,39 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	margin: 40px auto;
+	width: 60%;
+	color: white;
+	background-color: rgb(176, 195, 235);
+}
+
+.header {
+	background-color: rgb(148, 231, 148);
+	padding: 20px;
+	color: whitesmoke;
+}
+h1,
+p {
+	text-align: center;
+	color: green;
+}
+
+.sectionOne,
+.sectionTwo {
+	background-color: rgb(176, 195, 235);
+	padding: 20px;
+}
+
+h4 {
+	color: red;
+	text-align: center;
+}
+
+ul,
+ol {
+	list-style: circle;
+	list-style-position: inside;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fetch.css">
+    <title>Trying Out Some New OOP syntax in JS</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+            <h2 id="heading">Our Reviews</h2>
+            <div class="line"></div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <div class="quote">"</div>
+                <img src="./images/person-1.jpeg" alt="" id="image">
+            </div>
+            <h4 id="name"  >Susan Smith</h4>
+            <p id="job">Web Developer</p>
+            <p id="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Asperiores laborum velit unde ex sapiente, incidunt aspernatur 
+                maxime perspiciatis! Voluptates deleniti impedit non?
+                Atque eius nihil alias tempora? Rerum, possimus asperiores?
+            </p>
+            <div class="btn1">
+                <div class="icon">
+                    <button><i></i></button>
+                    <button><i></i></button>
+                </div>
+                <button class="btn" id="sup">Suprise me</button>
+
+            </div>
+        </div>
+    </div>
+    
+    <a href="#" class="me">Fetch all</a>
+
+
+    <form name="selectForm">
+        <p>
+            <label for="musicTypes">Choose some music types, then click the button below:</label>
+            <select id="musicTypes" name="musicTypes" multiple="multiple">
+                <option selected="selected">R&B</option>
+                <option>Jazz</option>
+                <option>Blues</option>
+                <option>New Age</option>
+                <option>Classical</option>
+                <option>Opera</option>
+            </select>
+        </p>
+        <p><input id="btn" type="button" value="How many are selected?" /></p>
+    </form>
+    
+    <script src="./fetch.js"></script>
+</body>
+</html>

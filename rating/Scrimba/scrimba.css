@@ -1,0 +1,75 @@
+.heading {
+	color: darkblue;
+	font-size: 15px;
+	transition: all 0.5s;
+	transition-delay: 1s;
+	transition-timing-function: ease-in;
+}
+
+.heading:hover {
+	color: red;
+	font-size: 25px;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+.box:hover {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border: 1px solid black;
+	animation-name: grow;
+	animation-duration: 2s;
+}
+
+@keyframes grow {
+	0% {
+		width: 50px;
+		height: 50px;
+		background-color: red;
+	}
+	50% {
+		width: 100px;
+		height: 50px;
+		background-color: blue;
+	}
+
+	100% {
+		width: 100px;
+		height: 100px;
+		background-color: green;
+	}
+}
+.sample {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+.sample:hover {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+
+	animation-name: sample;
+	animation-duration: 4s;
+}
+
+@keyframes sample {
+	0% {
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+	}
+
+	100% {
+		width: 10px;
+		height: 10px;
+		background-color: red;
+	}
+}
